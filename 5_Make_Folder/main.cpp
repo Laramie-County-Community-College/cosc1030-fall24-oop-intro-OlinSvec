@@ -29,15 +29,15 @@ int main() {
    triangle1.SetBase(baseInput);
    triangle1.SetHeight(heightInput);
 
+   // TODO Completed: Read and set base and height for triangle2 (use SetBase() and SetHeight())
    cin >> baseInput;
    cin >> heightInput;
    triangle2.SetBase(baseInput);
    triangle2.SetHeight(heightInput);
 
-   // TODO Completed: Read and set base and height for triangle2 (use SetBase() and SetHeight())
    cout << "Triangle with smaller area:" << endl;
-   cout << "Triangle 1: " << triangle1.GetArea() << endl;
-   cout << "Triangle 2: " << triangle2.GetArea() << endl;
+   //cout << "Triangle 1: " << triangle1.GetArea() << endl;
+   //cout << "Triangle 2: " << triangle2.GetArea() << endl;
 
    // TODO Completed: Determine smaller triangle (use GetArea())  
    //       and output smaller triangle's info (use PrintInfo())
